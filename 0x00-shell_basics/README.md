@@ -1,1 +1,1 @@
-where am i
+These are the commands in the script
