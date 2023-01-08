@@ -1,1 +1,1 @@
-This project is about shell redirections 
+This is about article on what happens when you type a wed address
