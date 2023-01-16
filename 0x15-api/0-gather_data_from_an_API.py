@@ -5,6 +5,9 @@ Python script that, using this REST API, for a given employee ID
 import requests
 from sys import argv
 
+EMPLOYEE_NAME: name of the employee
+NUMBER_OF_DONE_TASKS: number of completed tasks
+TOTAL_NUMBER_OF_TASKS: total number of tasks, which is the sum of completed and non-completed tasks
 if __name__ == "__main__":
     if len(argv) > 1:
         user = argv[1]
