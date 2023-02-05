@@ -1,4 +1,6 @@
 QUESTION
+
+
 Using one of the web stack debugging project issue or an outage you have personally face, write a postmortem. Most of you will never have faced an outage, so just get creative and invent your own :)
 Requirements:
 •	Issue Summary (that is often what executives will read) must contain:
@@ -21,7 +23,11 @@ o	a list of tasks to address the issue (be very specific, like a TODO, example: 
 •	Be brief and straight to the point, between 400 to 600 words
 While postmortem format can vary, stick to this one so that you can get properly reviewed by your peers.
 Please, remember that these blogs must be written in English to further your technical ability in a variety of settings.
+
+
 ANSWER
+
+
 Issue Summary: 
 On February 5th, 2022 at 9:00 AM GMT, a web stack issue caused a 2-hour long outage that affected 75% of our users. During this time, users were unable to access the company's online store. The root cause of the issue was a software bug in the store's checkout page.
 Timeline: 9:00 AM GMT on February 5th, 2022 - The issue was detected when a monitoring alert was triggered. The monitoring system detected a high number of error messages coming from the checkout page. 9:15 AM GMT on February 5th, 2022 - The issue was investigated by the IT Support Team. Assumptions were made that the root cause was a database connection problem, as the error messages suggested that there was a problem accessing the database. 9:30 AM GMT on February 5th, 2022 - Further investigation revealed that the issue was not related to the database connection, and the checkout page code was investigated instead. The Development Team was consulted and they found the software bug in the checkout page code. 10:00 AM GMT on February 5th, 2022 - The incident was escalated to the Development Team, who took ownership of the issue and worked on resolving it. 11:00 AM GMT on February 5th, 2022 - The incident was resolved by the Development Team by applying a software patch to fix the bug. The patch was thoroughly tested to ensure that the issue was fully resolved.
